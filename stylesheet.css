@@ -1,0 +1,26 @@
+div {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.red-line {
+	background-color: #CC0000;
+	height: 15px;
+	width: 975px;
+	margin-bottom: 12px;
+}
+.big-box {
+	margin-bottom: 12px;
+	background-color: #7f7f7f;
+	width: 975px;
+	height: 475px;
+}
+.lil-boxes {
+	background-color: #a6a6a6;
+	height: 90px;
+	width: 295px;
+}
+#three-cont {
+	height:90px;
+	width: 975px;
+}
