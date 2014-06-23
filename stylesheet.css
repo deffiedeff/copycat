@@ -7,7 +7,6 @@ div {
 	background-color: #CC0000;
 	height: 15px;
 	width: 975px;
-	margin-bottom: 12px;
 }
 .big-box {
 	margin-bottom: 12px;
@@ -19,8 +18,17 @@ div {
 	background-color: #a6a6a6;
 	height: 90px;
 	width: 295px;
+	float:left;
+	display:inline;
+	margin: 12px;
 }
 #three-cont {
 	height:90px;
 	width: 975px;
+}
+#boxcenter {
+
+}
+#box-left {
+
 }
