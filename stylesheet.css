@@ -32,3 +32,8 @@ div {
 #box-left {
 
 }
+#top-box {
+	width:975;
+	height: 100;
+	margin-bottom: 12px;
+}

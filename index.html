@@ -5,6 +5,8 @@
 		<title>Copycat</title>
 	</head>
 	<body>
+		<div id="top-box">
+		</div>
 		<div class="big-box">
 		</div>
 		<div class="red-line">
@@ -14,5 +16,18 @@
 			<div class="lil-boxes"></div>
 			<div class="lil-boxes"></div>
 		</div>
+	<div>
+		<canvas id="myCanvas" width="975" height="2"></canvas>
+		    <script>
+		      var canvas = document.getElementById('myCanvas');
+		      var context = canvas.getContext('2d');
+
+		      context.beginPath();
+		      context.moveTo(0, 2);
+		      context.lineTo(975, 2);
+		      context.stroke();
+		      context.linewidth = 2;
+		    </script>
+	</div>
 	</body>
 </html>
